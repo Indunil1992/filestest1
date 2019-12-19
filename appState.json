@@ -1,0 +1,260 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "fb56b1d3-01c5-4632-bb84-856d719e0808": {
+        "id": "fb56b1d3-01c5-4632-bb84-856d719e0808",
+        "parent": null,
+        "name": "filestest1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "4a48b5f2-a47c-4ecc-a20a-070439a8a56a",
+          "38ae1332-ab79-4676-994c-304bd0943929",
+          "fc71f021-9877-4821-a2c8-311690f7394c",
+          "6b106e48-d081-4574-b838-56ada100f09a",
+          "a67ff3f3-f7f5-4807-b4e1-1cbbc810c5c9",
+          "2a635df3-d3e4-418b-9e49-6839bb3ec46a",
+          "cdcf471d-7381-4159-8107-6f7ef97f04c1",
+          "2822c73e-8c1f-4e7b-9d9d-495ce5bdb8ca",
+          "d7175818-60e5-42e6-aa14-b892365710be",
+          "dd1a0164-b3c3-48c0-8c51-7a826c62a334"
+        ],
+        "isRemovable": false,
+        "filePath": "filestest1"
+      },
+      "4a48b5f2-a47c-4ecc-a20a-070439a8a56a": {
+        "id": "4a48b5f2-a47c-4ecc-a20a-070439a8a56a",
+        "parent": "fb56b1d3-01c5-4632-bb84-856d719e0808",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filestest1/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInamepost",
+            "config": {}
+          }
+        ]
+      },
+      "38ae1332-ab79-4676-994c-304bd0943929": {
+        "id": "38ae1332-ab79-4676-994c-304bd0943929",
+        "parent": "fb56b1d3-01c5-4632-bb84-856d719e0808",
+        "name": "python.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filestest1/python.py",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInamedelete",
+            "config": {}
+          }
+        ]
+      },
+      "fc71f021-9877-4821-a2c8-311690f7394c": {
+        "id": "fc71f021-9877-4821-a2c8-311690f7394c",
+        "parent": "fb56b1d3-01c5-4632-bb84-856d719e0808",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filestest1/__init__.py"
+      },
+      "6b106e48-d081-4574-b838-56ada100f09a": {
+        "id": "6b106e48-d081-4574-b838-56ada100f09a",
+        "parent": "fb56b1d3-01c5-4632-bb84-856d719e0808",
+        "name": "text.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filestest1/text.txt"
+      },
+      "a67ff3f3-f7f5-4807-b4e1-1cbbc810c5c9": {
+        "id": "a67ff3f3-f7f5-4807-b4e1-1cbbc810c5c9",
+        "parent": "fb56b1d3-01c5-4632-bb84-856d719e0808",
+        "name": "html.html",
+        "type": "HTML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filestest1/html.html"
+      },
+      "2a635df3-d3e4-418b-9e49-6839bb3ec46a": {
+        "id": "2a635df3-d3e4-418b-9e49-6839bb3ec46a",
+        "parent": "fb56b1d3-01c5-4632-bb84-856d719e0808",
+        "name": "testcld.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filestest1/testcld.json"
+      },
+      "cdcf471d-7381-4159-8107-6f7ef97f04c1": {
+        "id": "cdcf471d-7381-4159-8107-6f7ef97f04c1",
+        "parent": "fb56b1d3-01c5-4632-bb84-856d719e0808",
+        "name": "JSON.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filestest1/JSON.json"
+      },
+      "2822c73e-8c1f-4e7b-9d9d-495ce5bdb8ca": {
+        "id": "2822c73e-8c1f-4e7b-9d9d-495ce5bdb8ca",
+        "parent": "fb56b1d3-01c5-4632-bb84-856d719e0808",
+        "name": "xml.xml",
+        "type": "XML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filestest1/xml.xml"
+      },
+      "d7175818-60e5-42e6-aa14-b892365710be": {
+        "id": "d7175818-60e5-42e6-aa14-b892365710be",
+        "parent": "fb56b1d3-01c5-4632-bb84-856d719e0808",
+        "name": "JSON2.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filestest1/JSON2.json"
+      },
+      "dd1a0164-b3c3-48c0-8c51-7a826c62a334": {
+        "id": "dd1a0164-b3c3-48c0-8c51-7a826c62a334",
+        "parent": "fb56b1d3-01c5-4632-bb84-856d719e0808",
+        "name": "html1.html",
+        "type": "HTML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filestest1/html1.html"
+      }
+    },
+    "rootNode": "fb56b1d3-01c5-4632-bb84-856d719e0808",
+    "openFiles": [
+      "4a48b5f2-a47c-4ecc-a20a-070439a8a56a",
+      "38ae1332-ab79-4676-994c-304bd0943929",
+      "6b106e48-d081-4574-b838-56ada100f09a",
+      "a67ff3f3-f7f5-4807-b4e1-1cbbc810c5c9",
+      "2a635df3-d3e4-418b-9e49-6839bb3ec46a",
+      "cdcf471d-7381-4159-8107-6f7ef97f04c1",
+      "2822c73e-8c1f-4e7b-9d9d-495ce5bdb8ca",
+      "d7175818-60e5-42e6-aa14-b892365710be",
+      "dd1a0164-b3c3-48c0-8c51-7a826c62a334"
+    ],
+    "currentFileId": "dd1a0164-b3c3-48c0-8c51-7a826c62a334",
+    "resources": {
+      "apigusEast1sachithraAPInamepost": {
+        "name": "apigusEast1sachithraAPInamepost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "zrjp6rdv3b",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "gqytpo",
+          "mode": 1
+        }
+      },
+      "apigusEast1sachithraAPInamedelete": {
+        "name": "apigusEast1sachithraAPInamedelete",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "zrjp6rdv3b",
+          "restMethod": "DELETE",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test12",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "38ae1332-ab79-4676-994c-304bd0943929",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/filestest1",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "filestest1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576745153014
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "filestest1",
+      "url": "https://github.com/Indunil1992/filestest1"
+    }
+  }
+}
